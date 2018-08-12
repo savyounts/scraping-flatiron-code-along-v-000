@@ -14,11 +14,11 @@ class Scraper
       course.title = doc.css(".post").css.("h2").text  
       course.schedule = doc.css(".post").css(".date").text
       course.description = doc.css(".post").css("p").text
-     binding.pry
+     
     end
    
   end 
-  
+  binding.pry
   
   #def get_courses(selector)
    # course_offerings = doc.css(selector)
